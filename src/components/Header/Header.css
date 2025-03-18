@@ -1,8 +1,16 @@
 
 
 
-body{
-    color: green;
-   
+.head{
+
+    color: white;
+    font-size: medium;
     text-align: center;
+    box-sizing: border-box;
+    font-size: -large;
+   
+  
+   
+   
+ 
 }
