@@ -1,8 +1,43 @@
-
-Footer{
-    background-color: skyblue;
-    width: 100%px;
-    height: 50px;  
-    border-radius: 50 px;
+/* Footer Styling
+.Footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
     text-align: center;
-}
+    font-size: 16px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Footer p {
+    margin: 0;
+  }
+  
+  .Footer a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .Footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .Footer p {
+    font-family: 'Arial', sans-serif;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 600px) {
+    .Footer {
+      padding: 15px;
+    }
+  
+    .Footer p {
+      font-size: 14px;
+    }
+  }
+   */

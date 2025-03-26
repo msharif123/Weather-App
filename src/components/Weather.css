@@ -1,120 +1,134 @@
 
+body {
 
-body{
-  background-color: blue
+
+  background-image: url("../assets/cloud.jpg");
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  
+  margin: 0;
+  padding: 0;
 }
 
 .weather-container {
-    text-align: center;
-    font-family: Arial, sans-serif;
-    padding: 20px;
-   
+  background-color: skyblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.head {
+  font-size: 24px;
+  color:blue;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color:white;
+  background-color: blue;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+
+button:hover {
+  background-color: green
+}
+
+.weather-details {
+
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: white;
+  text-align: center;
+  width: 100%;
+}
+
+.weather-icons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+}
+
+.temperature, .wind-speed, .humidity {
+  font-size:20px;
+  color: blue;
+  margin: 10px 0;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+}
+
+.message {
+  color: blue;
+  font-weight: bold;
+  text-align: center;
+}
+
+.weather-details h1 {
+  font-size: 22px;
+  color: blue;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+  .search-container {
+    width: 100%;
   }
   
   input {
-    padding: 10px;
-    font-size: 16px;
-    margin-right: 10px;
+    width: 90%;
   }
-  
+
   button {
-    padding: 10px;
-    font-size: 16px;
-    cursor: pointer;
-    background-color: none;
-    border: none;
-    border-radius: 4px;
-  }
-  
-  button:hover {
-    background-color: skyblue;
-  }
-  
-  .error {
-    color: red;
-    margin-top: 20px;
-    font-size: x-large;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
-  }
-  
-  .forecast {
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-  }
-  
-  .forecast-day {
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    width: 150px;
-    text-align: center;
-    background-color: white;
-  }
-  
-  .forecast-day h3 {
-    margin: 0;
-    font-size: 18px;
-  }
-  
-  .forecast-day p {
-    margin: 5px 0;
-  }
-  
-  .humidityImg{
-        width: 50px;
-    height: 50px;
+    width: 90%;
   }
 
+  .weather-details {
+    width: 100%;
+  }
+
+  .icon {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+.current-weather{
+
+  color: white;
  
-  .windImg{
-
-    width: 50px;
-    height: 50px;
-  }
-
-  .sunImg{
-    width: 50px;
-    height: 50px;
-    
-  }
-
-  .cloudImg{
-    width: 50px;
-    height: 50px;
-
-  }
-
-  
-   
- 
-  .TempImg{
-  
-    width: 150px;
-    height: 150px;
-  }
-
-  .Text {
-    text-align:  center;
-    color: black;
-    font-family:'Times New Roman', Times, serif;
-    font-size: large;
-  
-  }
-
-
-  .Temp{
-   background-color: skyblue;
-   margin: 10 10;
-   padding: 0px;
-   border-radius: 50px;
-  
-  
-  
-  
-  
- 
- 
-   justify-items: center;
-  }
+  width: 100%;
+}
