@@ -7,7 +7,7 @@ const Footer = () =>{
 
 
     <footer className="Footer">  
-        <p>&copy; {new Date().getFullYear()} www.simpleweather.com</p>
+        <p>&copy; {new Date().getFullYear()} Simple weathe app</p>
     </footer>
     
     
